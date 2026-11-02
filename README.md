@@ -1,9 +1,14 @@
 
 <h2 align="center">MCR-TokenNet: Compact Morphology Recalibration and Token Reasoning for Robust Microscopy Classification</h2>
 
-<p align="center">PyTorch implementation for microscopy image classification.</p>
+<p align="center">
+  <a href="https://github.com/Sageemma">
+    <img src="https://img.shields.io/badge/Contact-Author-blue" alt="Contact Author">
+  </a>
+</p>
 
 ## Overview 🔍
+Accurate microscopy classification requires distinguishing subtle morphological patterns while accommodating variations in image quality, staining, and magnification. MCR-TokenNet introduces a compact recognition framework integrating stage-wise morphology refinement (SMR), feature recalibration (FRM), and Transformer-based token reasoning. SMR enhances local morphological representations, while FRM recalibrates and integrates hierarchical features to preserve discriminative information across levels. A compact token reasoning captures contextual dependencies with limited computational overhead. Experiments on NIH Malaria, BBBC041, and Multi-Parasite benchmarks demonstrate strong classification performance across binary and multiclass recognition tasks. Additional evaluations examine robustness under controlled image degradation and generalization across optical magnifications. The framework provides an efficient approach to morphology-aware microscopy recognition.
 
 <p align="center">
   <img src="assets/figure_2_mcr_tokennet.png" alt="Architecture of MCR-TokenNet" width="95%">
@@ -11,10 +16,8 @@
 
 **Figure 1.** Overview of the MCR-TokenNet framework.
 
-**Abstract.** MCR-TokenNet combines stage-wise morphology refinement (SMR), feature recalibration (FRM), and compact Transformer-based token reasoning to classify microscopy images. SMR refines local morphological features, FRM integrates representations across feature levels, and a 7 × 7 token grid models contextual relationships. Experiments on NIH Malaria, BBBC041, and Multi-Parasite benchmarks evaluate recognition performance, robustness, and cross-magnification transfer.
-
 ## Datasets 📚
-
+MCR-TokenNet was evaluated on three publicly available microscopy benchmarks encompassing binary malaria-cell classification, blood-cell and parasite-stage recognition, and multiclass parasite identification.
 | Dataset | Images / crops | Classes | Partitioning |
 | --- | ---: | ---: | --- |
 | [NIH Malaria](https://ceb.nlm.nih.gov/repositories/malaria-datasets/) | 27,558 | 2 | Patient-aware |
