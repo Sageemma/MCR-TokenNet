@@ -2,10 +2,11 @@
 <h2 align="center">MCR-TokenNet: Compact Morphology Recalibration and Token Reasoning for Robust Microscopy Classification</h2>
 
 <p align="center">
-  <a href="https://github.com/Sageemma">
-    <img src="https://img.shields.io/badge/Contact-Author-blue" alt="Contact Author">
+  <a href="mailto:gyarteng@std.uestc.edu.cn">
+    <img src="https://img.shields.io/badge/Contact-gyarteng%40std.uestc.edu.cn-blue" alt="Contact: gyarteng@std.uestc.edu.cn">
   </a>
 </p>
+
 
 ## Overview 🔍
 Accurate microscopy classification requires distinguishing subtle morphological patterns while accommodating variations in image quality, staining, and magnification. MCR-TokenNet introduces a compact recognition framework integrating stage-wise morphology refinement (SMR), feature recalibration (FRM), and Transformer-based token reasoning. SMR enhances local morphological representations, while FRM recalibrates and integrates hierarchical features to preserve discriminative information across levels. A compact token reasoning captures contextual dependencies with limited computational overhead. Experiments on NIH Malaria, BBBC041, and Multi-Parasite benchmarks demonstrate strong classification performance across binary and multiclass recognition tasks. Additional evaluations examine robustness under controlled image degradation and generalization across optical magnifications. The framework provides an efficient approach to morphology-aware microscopy recognition.
