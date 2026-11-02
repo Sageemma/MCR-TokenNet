@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this work."
+title: "MCR-TokenNet: Compact Morphology Recalibration and Token Reasoning for Robust Microscopy Classification"
+type: software
+authors:
+  - family-names: Gyarteng
+    given-names: Emmanuel S. A.
+  - family-names: Zhang
+    given-names: XiaoLing
+  - family-names: Ukwuoma
+    given-names: Chiagoziem C.
+  - family-names: Nyarko
+    given-names: Benedicta N. E.
+  - family-names: Atwereboannah
+    given-names: Abena A.
+version: 0.3.1

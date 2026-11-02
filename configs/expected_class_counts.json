@@ -1,0 +1,95 @@
+{
+  "split_order": [
+    "train",
+    "val",
+    "test"
+  ],
+  "counts": {
+    "NIH Malaria": {
+      "Parasitized": [
+        9646,
+        2064,
+        2069
+      ],
+      "Uninfected": [
+        9649,
+        2066,
+        2064
+      ]
+    },
+    "BBBC041": {
+      "red_blood_cell": [
+        53792,
+        11500,
+        11540
+      ],
+      "leukocyte": [
+        514,
+        110,
+        110
+      ],
+      "gametocyte": [
+        283,
+        60,
+        59
+      ],
+      "ring": [
+        447,
+        100,
+        88
+      ],
+      "trophozoite": [
+        399,
+        80,
+        89
+      ],
+      "schizont": [
+        391,
+        70,
+        40
+      ]
+    },
+    "Multi-Parasite": {
+      "Babesia": [
+        822,
+        176,
+        175
+      ],
+      "Leishmania": [
+        1891,
+        406,
+        404
+      ],
+      "Leukocyte": [
+        964,
+        207,
+        205
+      ],
+      "Plasmodium": [
+        591,
+        126,
+        126
+      ],
+      "RBCs": [
+        6296,
+        1349,
+        1350
+      ],
+      "Toxoplasma": [
+        4683,
+        1003,
+        1005
+      ],
+      "Trichomonad": [
+        7093,
+        1520,
+        1521
+      ],
+      "Trypanosome": [
+        1669,
+        357,
+        359
+      ]
+    }
+  }
+}

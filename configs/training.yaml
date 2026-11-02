@@ -1,0 +1,19 @@
+seeds: [42, 123, 3407]
+epochs: 100
+patience: 15
+batch_size: 16
+eval_batch_size: 32
+optimizer: AdamW
+peak_lr: 0.0005
+weight_decay: 0.05
+scheduler: OneCycleLR
+pct_start: 0.1
+div_factor: 10
+final_div_factor: 100
+grad_clip: 1.0
+accum_steps: 4
+amp: true
+loss:
+  gamma: 2.0
+  beta: 0.999
+  epsilon: 0.05

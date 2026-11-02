@@ -1,0 +1,14 @@
+# Environment and local outputs (track the published CSV split manifests)
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+.venv/
+.idea/
+.vscode/
+data/
+runs/
+checkpoints/
+*.pt
+*.pth
+.DS_Store

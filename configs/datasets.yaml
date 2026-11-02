@@ -1,0 +1,10 @@
+NIH Malaria:
+  classes: [Parasitized, Uninfected]
+  partition_unit: patient
+BBBC041:
+  classes: [red_blood_cell, leukocyte, gametocyte, ring, schizont, trophozoite]
+  partition_unit: source_image
+Multi-Parasite:
+  classes: [Babesia, Leishmania, Leukocyte, Plasmodium, RBCs, Toxoplasma, Trichomonad, Trypanosome]
+  partition_unit: image
+  shared_magnification_classes: [Leukocyte, Toxoplasma]

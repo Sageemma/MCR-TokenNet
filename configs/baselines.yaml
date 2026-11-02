@@ -1,0 +1,16 @@
+# Checkpoint identifiers and learning-rate selections are in baseline_*.csv.
+backbones:
+  - MobileNetV3-Large
+  - EfficientNet-B0
+  - ResNet-50
+  - DenseNet-121
+  - EfficientNetV2-S
+  - ConvNeXt-Tiny
+  - ViT-B/16
+  - Swin-T
+  - TinyViT-21M
+  - EfficientFormerV2-S2
+  - EdgeNeXt-S
+  - FastViT-SA12
+  - FasterViT-0
+  - DINOv2 ViT-S/14

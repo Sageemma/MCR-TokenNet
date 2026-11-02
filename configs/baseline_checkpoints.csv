@@ -1,0 +1,16 @@
+Architecture,Pretrained checkpoint/source,Initialization,Trainable scope,Layer-wise LR decay
+MobileNetV3-Large,torchvision: MobileNet_V3_Large_Weights.IMAGENET1K_V2,ImageNet-1K,Full network,None
+EfficientNet-B0,torchvision: EfficientNet_B0_Weights.IMAGENET1K_V1,ImageNet-1K,Full network,None
+ResNet-50,torchvision: ResNet50_Weights.IMAGENET1K_V2,ImageNet-1K,Full network,None
+DenseNet-121,torchvision: DenseNet121_Weights.IMAGENET1K_V1,ImageNet-1K,Full network,None
+EfficientNetV2-S,torchvision: EfficientNet_V2_S_Weights.IMAGENET1K_V1,ImageNet-1K,Full network,None
+ConvNeXt-Tiny,torchvision: ConvNeXt_Tiny_Weights.IMAGENET1K_V1,ImageNet-1K,Full network,None
+ViT-B/16,torchvision: ViT_B_16_Weights.IMAGENET1K_V1,ImageNet-1K,Full network,None
+Swin-T,timm/swin_tiny_patch4_window7_224.ms_in1k,ImageNet-1K,Full network,None
+TinyViT-21M,timm/tiny_vit_21m_224.in1k,ImageNet-1K,Full network,None
+EfficientFormerV2-S2,timm/efficientformerv2_s2.snap_dist_in1k,ImageNet-1K,Full network,None
+EdgeNeXt-S,timm/edgenext_small.usi_in1k,ImageNet-1K,Full network,None
+FastViT-SA12,timm/fastvit_sa12.apple_in1k,ImageNet-1K,Full network,None
+FasterViT-0,NVIDIA FasterViT: fastervit_0_224_1k.pth.tar,ImageNet-1K,Full network,None
+DINOv2 ViT-S/14,facebook/dinov2-small,DINOv2 pretrained weights,Full network,None
+MCR-TokenNet,No external pretrained checkpoint,Random initialization,Full network,None
