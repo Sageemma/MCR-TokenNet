@@ -63,7 +63,7 @@ The repository also includes preprocessing, duplicate-screening, baseline config
 
 ## Citation
 
-If you use this implementation, please cite **“MCR-TokenNet: Compact Morphology Recalibration and Token Reasoning for Robust Microscopy Classification.”** See [`CITATION.cff`](CITATION.cff).
+Citation information for the associated MCR-TokenNet article will be added upon publication.
 
 ## License 📜
 
